@@ -30,3 +30,4 @@ console.log(`Items (${1 + 1}): $${(20.95 * 100 + 7.99 * 100) / 100}`);
 // improvement → in real projects, avoid manual *100 tricks for money
 // use proper formatting
 console.log(`$${(20.95 + 7.99).toFixed(2)}`);
+
